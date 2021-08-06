@@ -3,11 +3,20 @@
 #     - pytest
 
 
+# language: python
+# python:
+#   - "3.8"
+# virtualenv:
+#   system_site_packages: true
+
+
 language: python
 python:
   - "3.8"
-virtualenv:
-  system_site_packages: true
+instal:
+  - pip install -q -r requirements-dev.txt
+script:
+  - pytest produto
 
 
 # language: python
