@@ -16,7 +16,7 @@ python:
 instal:
   - pip install -q -r requirements-dev.txt
 script:
-  - pytest produto
+  - pytest food-delivery-pythonando
 
 
 # language: python
